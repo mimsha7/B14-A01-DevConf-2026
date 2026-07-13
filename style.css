@@ -331,3 +331,23 @@ button{
     line-height: 1.5;
     padding: 0 20px 20px 20px;
 }
+
+/* footer */
+
+.footer-area {
+    height: 145px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1b2a;
+}
+.copyright{
+    color: #ffffff40;
+    font-size: 16px;
+
+}
+.footer-items a{
+    text-decoration: none;
+    color: #ffffff40;
+}
