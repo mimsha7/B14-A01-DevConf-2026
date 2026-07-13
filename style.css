@@ -151,3 +151,123 @@ button{
     font-weight: 400;
     line-height: 1.5;
 }
+
+/* Plans */
+.plans{
+    margin: 80px 0;
+    padding: 0 32px;
+}
+
+.plan-header{
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+
+.plan-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.plan-header p{
+    font-size: 16px;
+    color: #6b7280;
+}
+
+.plans .plan-name{
+    font-size: 13px;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.price{
+    color: #0d1b2a;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.plan-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1100px;
+    gap: 16px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.plan-card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.09);
+    padding: 30px;
+    margin: 16px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.plan-card .count{
+    font-size: 13px;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 16px;
+}
+
+.plan-card ul{
+    padding-left: 16px;
+    margin: 20px 0;
+}
+
+.plan-card ul > li{
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 0.2rem 0;
+}
+
+.plan-card .btn{
+    background-color: transparent;
+    color: #2563eb;
+    padding: 10px 20px;
+    border: 1px solid #2563eb;
+    font-weight: 600;
+}
+.btn-team{
+    background-color: transparent;
+    color: #0d1b2a;
+    border: 1px solid #0d1b2a;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.highlight{
+    background-color: #0d1b2a;
+    color: #ffffff;
+    border: 1px solid #0d1b2a;
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.highlight ul > li{
+    color: #ffffff;
+}
+
+.highlight .btn{
+    background-color: #2563eb;
+    color: #fff;
+    border: 1px solid #2563ea;
+}
+
+.highlight .plan-name{
+    color: #93c5fdFF;
+}
+
+.highlight .count{
+    color: #ffffff80;
+    border-bottom: 1px solid #ffffff1a;
+}
+
+.highlight .price{
+    color: #fff;
+}
