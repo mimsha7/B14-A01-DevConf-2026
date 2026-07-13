@@ -12,7 +12,7 @@ button{
     background-color: #2563ea;
     color: #ffffff;
     border: 1px solid #2563eb;
-    padding: 12px 24px;
+    padding: 12px 28px;
     border-radius: 6px;
     font-size: 13px;
     font-weight: 600;
@@ -29,9 +29,11 @@ button{
 }
 
 .logo-container {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 12px;
+    cursor: pointer;
 }
 
 .logo-icon{
@@ -49,10 +51,6 @@ button{
     line-height: 1.1;
 }
 
-.logo img{
-    height: 100%;
-    width: 100%;
-}
 .nav-links{
     display: flex;
     list-style: none;
@@ -104,7 +102,7 @@ button{
 .hero-items .btn{
     margin-top: auto;
     border: none;
-    padding: 10px 24px;
+    padding: 14px 26px;
 }
 
 /* speaker */
