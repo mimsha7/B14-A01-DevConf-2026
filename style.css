@@ -288,7 +288,7 @@ button{
 .faq-container{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 .faq-item{
     background-color: #ffffff;
@@ -299,6 +299,7 @@ button{
 .faq-item:hover{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 .faq-item summary{
     list-style: none;
 }
