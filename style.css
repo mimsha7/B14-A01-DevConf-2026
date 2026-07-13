@@ -28,12 +28,27 @@ button{
     background-color: #ffffff;
 }
 
-.navbar .logo{
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-icon{
+    /* background-color: #0d1b2a; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
+    padding: 5px 0;
 }
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    color: #0d1b2a;
+    line-height: 1.1;
+}
+
 .logo img{
     height: 100%;
     width: 100%;
@@ -89,7 +104,7 @@ button{
 .hero-items .btn{
     margin-top: auto;
     border: none;
-    padding: 8px 20px;
+    padding: 10px 24px;
 }
 
 /* speaker */
