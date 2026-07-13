@@ -32,12 +32,11 @@ button{
     display: flex;
     align-items: center;
     text-decoration: none;
-    gap: 12px;
+    gap: 10px;
     cursor: pointer;
 }
 
 .logo-icon{
-    /* background-color: #0d1b2a; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,6 +47,8 @@ button{
     display: flex;
     flex-direction: column;
     color: #0d1b2a;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 1.1;
 }
 
